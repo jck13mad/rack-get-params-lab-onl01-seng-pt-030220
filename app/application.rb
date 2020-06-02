@@ -22,7 +22,8 @@ class Application
         end
       else 
         resp.write "Your cart is empty."
-        
+      end
+    elsif 
     else
       resp.write "Path Not Found"
     end
