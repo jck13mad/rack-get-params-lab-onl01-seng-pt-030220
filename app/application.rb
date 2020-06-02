@@ -19,6 +19,8 @@ class Application
       unless @@cart.empty?
         @@cart.each do |item|
           resp.write "#{item}\n"
+        end
+        
     else
       resp.write "Path Not Found"
     end
